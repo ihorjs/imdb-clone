@@ -5,7 +5,7 @@
   "main": "server.js",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.19.2",
     "babel-core": "^6.26.3",
     "babel-loader": "^6.4.1",
     "babel-polyfill": "^6.26.0",
