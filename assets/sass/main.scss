@@ -1,0 +1,1064 @@
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import "reset";
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  // background: purple;
+  box-sizing:border-box;
+  overflow-x:hidden;
+  
+}
+
+
+.head{
+  background: linear-gradient(45deg, rgba(82, 79, 79, 0.375) 0%, rgba(23, 23, 23, 0.8) 100%), url('https://hips.hearstapps.com/pop.h-cdn.co/assets/17/39/1600x995/gallery-1506522430-2049.jpg') no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 30rem;
+
+
+
+.compName{
+  font-size: 2rem;
+  font-weight:300;
+  letter-spacing: .4rem;
+  position:absolute;
+  color:white;
+  margin-top:1.5rem;
+  margin-left: 3rem;
+  text-decoration:none;
+
+}
+
+
+
+.rightArea{
+  float:right;
+  margin-right: 3rem;
+  margin-top: 2rem;
+ 
+  
+  
+  .rightInfo {
+    
+    li{
+        color:white;
+        font-size:1.2rem;
+        font-weight: 300;
+        display:inline-block;
+        margin-left: 2rem;
+        cursor:pointer;
+      }
+
+      .linkButton{
+       text-decoration:none;
+       color:white;
+       transition: all 1s ease-in-out;
+
+        .rounded-circle{
+          border-radius: 50%;
+          margin-bottom: -.4rem;
+      
+          }
+
+          .sub-menu{
+            opacity:0;
+            position: absolute;
+            
+            background: rgb(45, 49, 77);
+            right: 1.5rem;
+            padding-top:.5rem;
+            top:3.7rem;
+            border-radius: 5px;
+            transition: all .5s ease-in-out;
+            li{
+              display:block;
+              margin-bottom: .5rem;
+              margin-left:1rem;
+              margin-right:.5rem;
+              
+              
+            }
+            .sub-link{
+              a{
+                text-decoration:none;
+                color:white;
+                &:hover{
+                  color: rgb(161, 160, 160)
+                }
+              }
+            }
+
+            .sub-link-two{
+             a{
+              &:hover{
+                color: rgb(161, 160, 160)
+              }
+             }
+            }
+            
+          }
+      &:focus .sub-menu,
+      &:focus-within .sub-menu,
+      &:hover .sub-menu{
+       opacity:1;
+       
+
+      }
+      
+    }
+      
+    
+  
+    
+
+  
+}
+
+
+  
+   
+  
+  
+
+   .two:hover ~ hr {
+    margin-left: 33.5%;
+  }
+  
+  .three:hover ~ hr {
+    margin-left: 58%;
+  }
+  
+  .four:hover ~ hr {
+    margin-left: 81.2%;
+  }
+
+
+
+  .oneAuth ~ hr {
+    margin-left: 13%;
+  }
+  
+  .twoAuth:hover ~ hr {
+    margin-left: 52%;
+  }
+  
+  .threeAuth:hover ~ hr {
+    margin-left: 81.2%;
+  }
+
+
+
+
+
+  
+
+
+   hr {
+    height: .25rem;
+    width: 20%;
+    margin: 0;
+    background: rgba(255, 102, 0, 0.573);
+    border: none;
+    margin-top:.2rem;
+    margin-left: 1.5rem;
+    transition: .3s ease-in-out;
+   }
+ 
+
+  }
+
+ 
+
+  .movieTitle{
+    color:white;
+    font-size:1.5rem;
+    margin-left: 1.5rem;
+    margin-top: 25rem;
+    position: absolute;
+    padding: 2rem 5rem 4rem 2rem;
+    font-weight: 300;
+
+    // .trailerBtn{
+    //   position:absolute;
+    //   margin-top: .5rem;
+    //   background: rgba(255, 102, 0, 0.573);
+    //   padding: .2rem;
+    //   color:white;
+    //   font-size: 1.5rem;
+    //   cursor:pointer;
+     
+    // }
+  }
+}
+
+
+
+
+
+
+#movieSection{
+  background:#141414;
+  .search-area {
+    
+    margin-top: 2rem;
+    input[type="text"] {
+      font-weight: 100;
+      width: 50%;
+      background: transparent;
+      font-size: 2rem;
+      border: none;
+      border-bottom: 1px solid rgb(103, 102, 102);
+      
+      margin-bottom: 20px;
+      color: rgb(112, 111, 111);
+    }
+    
+  }
+
+  .searchButton{
+    margin-top:1rem;
+    background: transparent;
+    border-radius: 2px;
+    padding: .2rem 1rem;
+    
+    font-size:2rem;
+    color: rgb(255, 145, 0);
+    cursor:pointer;
+
+    &:hover,
+    &:focus {
+      color: white;
+      transition: all 300ms ease-in-out;
+    }
+  
+  }
+
+
+  .popularTitle{
+    text-align:center;
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(90, 90, 90);
+  }
+
+  .noResults{
+    font-size: 2rem;
+    color: white;
+  }
+  
+  .moviesArea{
+      
+    .singleMovie {
+      padding: 1rem;
+      display: inline-block;
+
+      & > img{
+
+
+        width: 200px;
+        height: 230px;
+        opacity: 0.7;
+        &:hover {
+          transform: scale(1.2); 
+          transition: transform .3s; /* Animation */
+          opacity:1;
+  
+      }
+      }
+      
+
+      
+      
+    }
+  }
+  
+  
+}
+
+
+
+.left-split{
+  background: linear-gradient(45deg, rgba(82, 79, 79, 0.375) 0%, rgba(23, 23, 23, 0.8) 100%), url('https://m.media-amazon.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_.jpg') no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  
+}
+
+.right-split{
+  background: #141414;
+    .registerForm{
+      margin-top:5rem;
+    }
+
+    .loginForm{
+      margin-top:10rem;
+    }
+
+    .display-4{
+      font-weight:500;
+      font-size:2rem;
+      padding: 1rem;
+      color:#4D6BA4;
+      text-decoration:none;
+    }
+
+    .display-5{
+      font-weight:500;
+      font-size: 1.5rem;
+      padding: 1rem;
+      color: rgb(90, 90, 90);
+    }
+
+    .display-6{
+      font-weight:500;
+      font-size: 1.5rem;
+      color: orange;
+      margin-top: .5rem;
+      margin-bottom:.5rem;
+    }
+
+    .all-forms{
+      max-width: 20rem;
+      .is-invalid{
+       
+        border:1px solid white !important;
+      
+        
+        
+          
+      }
+
+      .invalid-feedback{
+        color:white;
+        font-weight: 300;
+      }
+      
+      .form-control {
+        font-weight: 300;
+        height:2rem;
+        width: 20rem;
+        background: transparent;
+        font-size: 1.5rem;
+        border-radius:5px;
+        border:1px solid grey;
+        
+        
+        color: rgb(112, 111, 111);
+      }
+
+      .form-text{
+        color:white;
+        display:block;
+        position:relative;
+        text-align:center;
+       
+        
+        
+        
+        
+      }
+    }
+
+
+
+    
+    .btn-block{
+      margin-top:1rem;
+      background: transparent;
+      border-radius: 2px;
+      padding: 1rem 2rem;
+      border: 1px solid rgb(255, 145, 0);
+      font-size:1rem;
+      color: rgb(255, 145, 0);
+      cursor:pointer;
+
+      &:hover,
+      &:focus {
+        color: #fff;
+        outline: 0;
+        background: rgb(255, 145, 0);
+        transition: background 300ms ease-in-out;
+      }
+    
+    }
+  
+  }
+
+.profilePage{
+  background: #1d1d1d;
+  
+  .profile-head{
+    height: 20vh;
+    .compName{
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: .4rem;
+    position:absolute;
+    color: #4D6BA4;
+    margin-top:1.5rem;
+    margin-left: 3rem;
+    text-decoration:none;
+  
+  }
+  
+  
+  
+  .rightArea{
+    float:right;
+    margin-right: 3rem;
+    margin-top: 2rem;
+   
+    
+    
+    .rightInfo {
+      
+      li{
+          color:#4D6BA4;
+          font-size:1.2rem;
+          font-weight: 300;
+          display:inline-block;
+          margin-left: 2rem;
+          cursor:pointer;
+        }
+  
+        .linkButton{
+         text-decoration:none;
+         color:white;
+         transition: all 1s ease-in-out;
+  
+          .rounded-circle{
+            border-radius: 50%;
+            margin-bottom: -.4rem;
+        
+            }
+  
+            .sub-menu{
+              opacity:0;
+              position: absolute;
+              
+              background: rgb(45, 49, 77);
+              right: 1.5rem;
+              padding-top:.5rem;
+              top:3.7rem;
+              border-radius: 5px;
+              transition: all .5s ease-in-out;
+              li{
+                display:block;
+                margin-bottom: .5rem;
+                margin-left:1rem;
+                margin-right:.5rem;
+                
+                
+              }
+              .sub-link{
+                a{
+                  text-decoration:none;
+                  color:white;
+                  &:hover{
+                    color: rgb(161, 160, 160)
+                  }
+                }
+              }
+  
+              .sub-link-two{
+               a{
+                 color:white;
+                &:hover{
+                  color: rgb(161, 160, 160)
+                }
+               }
+              }
+              
+            }
+        &:focus .sub-menu,
+        &:focus-within .sub-menu,
+        &:hover .sub-menu{
+         opacity:1;
+         
+  
+        }
+        
+      }
+        
+      
+    
+      
+  
+    
+  }
+  
+  
+    
+     
+    
+    
+  
+     .two:hover ~ hr {
+      margin-left: 33.5%;
+    }
+    
+    .three:hover ~ hr {
+      margin-left: 58%;
+    }
+    
+    .four:hover ~ hr {
+      margin-left: 81.2%;
+    }
+  
+  
+  
+    .oneAuth ~ hr {
+      margin-left: 13%;
+    }
+    
+    .twoAuth:hover ~ hr {
+      margin-left: 52%;
+    }
+    
+    .threeAuth:hover ~ hr {
+      margin-left: 81.2%;
+    }
+  
+  
+  
+  
+  
+    
+  
+  
+     hr {
+      height: .25rem;
+      width: 20%;
+      margin: 0;
+      background: rgba(255, 102, 0, 0.573);
+      border: none;
+      margin-top:.2rem;
+      margin-left: 1.5rem;
+      transition: .3s ease-in-out;
+     }
+   
+  
+    }
+
+  
+  
+    
+      
+    
+  }
+
+  .profile-information{
+    height: 80vh;
+    
+
+    .profileData{
+       margin-left: 10rem;
+      
+      }
+    
+    .profileInfoName{
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: grey;
+      
+    }
+    .profileWarning{
+      color:#4D6BA4;
+    }
+
+    .createProfileButton{
+      text-decoration:none;
+      background-color: rgb(255, 102, 0);
+      border-radius: 5px;
+      color:white;
+      padding: .5rem;
+      position: absolute;
+      margin-top: 1rem;
+      
+    }
+
+    .editHandle{
+      text-decoration:none;
+      color: #4D6BA4;
+    }
+
+    .editProfileButton{
+      text-decoration:none;
+      background-color: rgb(255, 102, 0);
+      border-radius: 5px;
+      color:white;
+      padding: .5rem;
+      position: absolute;
+      
+    }
+
+    .deleteProfileButton{
+      text-decoration:none;
+      background-color: red;
+      border-radius: 5px;
+      border-color:transparent;
+      color:white;
+      padding: .5rem;
+      margin-left: 8rem;
+    }
+
+    .profile-items{
+      background: #1d1d1d;
+      margin-top:4rem;
+      height: 60rem;
+      .watchlist-profile{
+        margin: 1rem;
+        padding: 1rem;
+        height: 25%;
+        border: 1px solid orangered;
+
+        .profileListTitle{
+          font-size: 2rem;
+          color: #f60;
+        }
+        
+      }
+      .likes-profile{
+        margin: 1rem;
+        padding:1rem;
+        height: 25%;
+        border: 1px solid orangered;
+        .profileListTitle{
+          font-size: 2rem;
+          color: #f60;
+        }
+
+      }
+      .reviews-profile{
+        margin: 1rem;
+        padding: 1rem;
+        height: 25%;
+        border: 1px solid orangered;
+        .profileListTitle{
+          font-size: 2rem;
+          color: #f60;
+        }
+      }
+    }
+
+  
+  }
+  
+}
+
+.create-background{
+  background-color: #1d1d1d;
+  width: auto;
+  height: 40rem;
+.create-profile {
+  margin-top: 3rem;
+
+  
+
+  .createProfileTitle{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    color:white;
+  }
+
+  .createProfileInfo{
+    color:white;
+  }
+
+  .display-4{
+    font-weight:300;
+    font-size:2rem;
+    padding: 1rem;
+    color:#4D6BA4;
+    text-decoration:none;
+  }
+
+  .display-5{
+    font-weight:500;
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: rgb(90, 90, 90);
+  }
+
+  .display-6{
+    font-weight:500;
+    font-size: 1.5rem;
+    color: orange;
+    margin-top: .5rem;
+    margin-bottom:.5rem;
+  }
+
+  .all-forms{
+    max-width: 20rem;
+    .is-invalid{
+     
+      border:1px solid white !important;
+    
+      
+      
+        
+    }
+
+    .invalid-feedback{
+      color:white;
+      font-weight: 300;
+    }
+    
+    .form-control {
+      font-weight: 300;
+      height:2rem;
+      width: 20rem;
+      background: transparent;
+      font-size: 1.5rem;
+      border-radius:5px;
+      border:1px solid grey;
+      
+      
+      color: rgb(112, 111, 111);
+    }
+
+    .form-text{
+      color:white;
+      display:block;
+      position:relative;
+      text-align:center;
+     
+      
+      
+      
+      
+    }
+  }
+
+
+
+  
+  .btn-block{
+    margin-top:1rem;
+    background: transparent;
+    border-radius: 2px;
+    padding: 1rem 2rem;
+    border: 1px solid rgb(255, 145, 0);
+    font-size:1rem;
+    color: rgb(255, 145, 0);
+    cursor:pointer;
+
+    &:hover,
+    &:focus {
+      color: #fff;
+      outline: 0;
+      background: rgb(255, 145, 0);
+      transition: background 300ms ease-in-out;
+    }
+  
+  }
+
+  }
+}
+
+
+#mainMovieProfile{
+  height:100vh;
+.movieProfile{
+  
+  .movieImage{
+    
+    width: 100%;
+    
+    height:60rem;
+    .moviesPoster{
+      position: absolute;
+      width: 100%;
+      overflow: hidden;
+      height:40rem;
+      z-index: -1;
+      filter: brightness(30%);
+      object-fit: cover;
+      object-position: 100% ;
+    }
+  }
+
+
+
+.compName{
+  font-size: 2rem;
+  font-weight:300;
+  letter-spacing: .4rem;
+  position:absolute;
+  color:white;
+  margin-top:1.5rem;
+  margin-left: 3rem;
+  text-decoration:none;
+
+}
+
+
+
+.rightArea{
+  float:right;
+  margin-right: 3rem;
+  margin-top: 2rem;
+ 
+  
+  
+  .rightInfo {
+    
+    li{
+        color:white;
+        font-size:1.2rem;
+        font-weight: 300;
+        display:inline-block;
+        margin-left: 2rem;
+        cursor:pointer;
+      }
+
+      .linkButton{
+       text-decoration:none;
+       color:white;
+       transition: all 1s ease-in-out;
+
+        .rounded-circle{
+          border-radius: 50%;
+          margin-bottom: -.4rem;
+      
+          }
+
+          .sub-menu{
+            opacity: 0;
+            position: absolute;
+            background: #2d314d;
+            right: .8rem;
+            padding-top: .5rem;
+            padding-right: .5rem;
+            border-radius: 5px;
+            transition: all .5s ease-in-out;
+            li{
+              display:block;
+              margin-bottom: .5rem;
+              margin-left:1rem;
+              margin-right:.5rem;
+              
+              
+            }
+            .sub-link{
+              a{
+                text-decoration:none;
+                color:white;
+                &:hover{
+                  color: rgb(161, 160, 160)
+                }
+              }
+            }
+
+            .sub-link-two{
+             a{
+              &:hover{
+                color: rgb(161, 160, 160)
+              }
+             }
+            }
+            
+          }
+      &:focus .sub-menu,
+      &:focus-within .sub-menu,
+      &:hover .sub-menu{
+       opacity:1;
+       
+
+      }
+      
+    }
+      
+    
+  
+    
+
+  
+}
+
+
+  
+   
+  
+  
+
+   .two:hover ~ hr {
+    margin-left: 33.5%;
+  }
+  
+  .three:hover ~ hr {
+    margin-left: 58%;
+  }
+  
+  .four:hover ~ hr {
+    margin-left: 81.2%;
+  }
+
+
+
+  .oneAuth ~ hr {
+    margin-left: 13%;
+  }
+  
+  .twoAuth:hover ~ hr {
+    margin-left: 52%;
+  }
+  
+  .threeAuth:hover ~ hr {
+    margin-left: 81.2%;
+  }
+
+
+
+  
+
+
+  
+
+
+   hr {
+    height: .25rem;
+    width: 20%;
+    margin: 0;
+    background: rgba(255, 102, 0, 0.573);
+    border: none;
+    margin-top:.2rem;
+    margin-left: 1.5rem;
+    transition: .3s ease-in-out;
+   }
+ 
+
+  }
+
+ 
+
+  
+}
+
+
+.movieInformation{
+  background:white;
+  height: 20rem;
+  top:-25rem;
+  
+}
+
+.infoBlock{
+  background: white;
+    height: 30rem;
+    top: 30rem;
+    width: 95%;
+    right: 2rem;
+    position: absolute;
+
+  
+    .movieTitle{
+      color:black;
+      position: absolute;
+      margin-top: 3rem;
+      margin-left: 2rem;
+      font-size: 1.5rem;
+      font-weight: 300;
+      
+      
+
+      .heartOrange{
+        color: rgba(255, 102, 0, 0.573);
+        transition: transform .2s ease-in-out;
+
+        &:active {
+          transform: translateY(10px);
+
+        }
+      }
+
+      .heartGrey{
+        color: lightgray;
+        transition: transform .2s ease-in-out;
+
+        &:active {
+          transform: translateY(10px);
+
+
+        }
+      }
+
+      .heartButton{
+        float: right;
+        font-size: 40px;
+        margin-right: 2rem;
+        cursor: pointer;
+        color: lightgray;
+        transition: transform .6s;
+
+      }
+
+
+      .movieOne{
+        border-left: 2px solid rgba(255, 102, 0, 0.573);
+
+      .movieDate {
+        color: rgb(170, 169, 169);
+       
+        margin-left: 3rem;
+        font-size: 1.5rem;
+        font-weight: 300;
+        position: relative;
+        }
+      
+  
+    .movieName {
+      color: grey;
+      margin-top: 1rem;
+      margin-left: 2.7rem;
+      font-size: 3rem;
+      font-weight: 300;
+
+    }
+  }
+
+    .movieOverview{
+      color: grey;
+      margin-top: 1rem;
+      margin-left: 2.7rem;
+      font-size: 1.5rem;
+      font-weight: 300;
+      line-height: 2rem;
+      
+
+    }
+
+   
+
+    }
+
+    .scoreBox{
+      color: grey;
+      margin-top:3rem;
+      font-size: 2rem;
+    }
+    .voteBox{
+      background: orange;
+      padding: 20px 35px;
+      /* margin-top: -3rem; */
+      position: relative;
+      top: 3rem;
+      color: white;
+      font-size: 4rem;
+      font-weight: 500;
+    }
+
+  }
+}
